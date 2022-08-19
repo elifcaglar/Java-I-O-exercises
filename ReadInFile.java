@@ -46,6 +46,7 @@ We can not find the same line twice.********/
 				cnt++;
 			}
 			
+			//if file is empty return -1
 			if(line != " ") 
 				return cnt;
 			else {
